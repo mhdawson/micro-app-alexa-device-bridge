@@ -1,0 +1,42 @@
+{
+  "name": "micro-app-alexa-device-bridge",
+  "version": "0.0.1",
+  "description": "micro app to act as alexa devices and bridge to mqtt. Uses existing wemo emulation library.",
+  "main": "lib/server.js",
+  "scripts": {
+    "start": "node lib/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "micro-app-framework": "^0.1.1",
+    "socket.io": "~1.3.7",
+    "mqtt": "~1.6.3",
+    "wemore": "~0.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhdawson/micro-app-alexa-device-bridge.git"
+  },
+  "keywords": [
+    "iot",
+    "mqtt",
+    "dashboard",
+    "micro-app",
+    "sensor",
+    "alexa"
+  ],
+  "author": {
+    "name": "Michael Dawson"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhdawson/micro-app-alexa-device-bridge/issues"
+  },
+  "homepage": "https://github.com/mhdawson/micro-app-alexa-device-bridge#readme",
+  "contributors": [
+    {
+      "name": "Michael Dawson",
+      "email": "mdawson@devrus.com"
+    }
+  ]
+}
