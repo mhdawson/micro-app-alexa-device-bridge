@@ -1,0 +1,11 @@
+{
+  "serverPort": 3000,
+  "MaxRecentActivity": 100,
+  "mqttServerUrl": "tcp://10.1.1.186:1883",
+  "devices": [ { "name": "socket1", "port": 20001, "actions": { "on":  { "topic": "house/esp1/power", "message": "on"},
+                                                                "off": { "topic": "house/esp1/power", "message": "off" } } },
+               { "name": "led1", "port": 20002, "actions": { "on":  { "topic": "house/esp1/led", "message": "on"},
+                                                               "off": { "topic": "house/esp1/led", "message": "off" } } }
+  ]
+}
+   
