@@ -7,7 +7,21 @@
                { "name": "led1", "port": 20002, "actions": { "on":  { "topic": "house/esp1/led", "message": "on"},
                                                                "off": { "topic": "house/esp1/led", "message": "off" } } },
                { "name": "office", "port": 20003, "actions": { "on":  { "topic": "house/tuya/office", "message": "on"},
-                                                               "off": { "topic": "house/tuya/office", "message": "off" } } }
+                                                               "off": { "topic": "house/tuya/office", "message": "off" } } },
+               { "name": "dining", "port": 20004, "actions": { "on":  { "topic": "house/tuya/dining", "message": "on"},
+                                                               "off": { "topic": "house/tuya/dining", "message": "off" } } },
+               { "name": "spot", "port": 20006, "actions": { "on":  { "topic": "house/tuya/kitchen", "message": "on"},
+                                                                "off": { "topic": "house/tuya/kitchen", "message": "off" } } },
+               { "name": "tree", "port": 20005, "actions": { "on":  { "topic": "house/tuya/switch1", "message": "on"},
+                                                               "off": { "topic": "house/tuya/switch1", "message": "off" } } },
+               { "name": "workbench", "port": 20008, "actions": { "on":  { "topic": "house/tuya/sw2", "message": "on"},
+                                                               "off": { "topic": "house/tuya/sw2", "message": "off" } } },
+               { "name": "basement", "port": 20007, "actions": { "on":  { "topic": "house/switchmate/basement", "message": "on"},
+                                                                 "off": { "topic": "house/switchmate/basement", "message": "off" } } },
+               { "name": "left", "port": 20009, "actions": { "on":  { "topic": "house/tplink/lleft", "message": "on"},
+                                                                        "off": { "topic": "house/tplink/lleft", "message": "off" } } },
+               { "name": "right", "port": 20010, "actions": { "on":  { "topic": "house/tplink/lright", "message": "on"},
+                                                                         "off": { "topic": "house/tplink/lright", "message": "off" } } }
   ]
 }
    
